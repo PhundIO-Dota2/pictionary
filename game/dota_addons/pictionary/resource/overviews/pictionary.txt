@@ -1,0 +1,8 @@
+pictionary
+{
+	material materials/overviews/pictionary.vmat
+	pos_x -2120
+	pos_y 2120
+	scale 3.953
+}
+

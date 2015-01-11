@@ -1,0 +1,58 @@
+"DOTAHeroes"
+{
+	"drawer"
+	{
+		"AbilityLayout" 		"6"
+		"override_hero"			"npc_dota_hero_wisp"
+		"SoundSet"					"0"	
+		"Ability1"				"blink"
+		"Ability2"				"turn_off_pen"
+		"Ability3"				"pictionary_empty3" 
+		"Ability4"				"pictionary_empty4"
+		"Ability5"				"pictionary_empty5"
+		"Ability6"				"backspace"
+	    "Ability7"				"no_collision"
+	    "Ability8"				"no_health_bar"
+	    "Ability9"				""
+	    "Ability10"				""
+	    "Ability11"				""
+	    "Ability12"				""
+	    "Ability13"				""
+	    "Ability14"				""
+	    "Ability15"				""
+	    "Ability16"				""
+
+		"ArmorPhysical"				"0"									// Physical protection.
+		"MagicalResistance"				"0"									// Magical protection (percentage).
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"1"										// Damage range min.
+		"AttackDamageMax"			"1"										// Damage range max.
+
+		//"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"0"										// Base strength
+		"AttributeStrengthGain"		"0"										// Strength bonus per level.
+		"AttributeBaseIntelligence"	"0"										// Base intelligence
+		"AttributeIntelligenceGain"	"0"										// Intelligence bonus per level.
+		"AttributeBaseAgility"		"0"										// Base agility
+		"AttributeAgilityGain"		"0"										// Agility bonus per level.
+
+		"BountyXP"					"0"									// Experience earn.
+		"BountyGoldMin"				"0"										// Gold earned min.
+		"BountyGoldMax"				"0"										// Gold earned max.
+
+		//"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+		//"RingRadius"				"70"
+
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"390"									// Speed.
+		"MovementTurnRate"			"1.0"									// Turning rate.
+
+		"StatusHealth"				"981"									// Base health.
+		"StatusHealthRegen"			"0.0"									// Health regeneration rate.
+		"StatusMana"				"387"										// Base mana.
+		"StatusManaRegen"			"99.96"									// Mana regeneration rate.
+
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+	}
+}
